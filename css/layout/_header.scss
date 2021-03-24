@@ -15,8 +15,16 @@ h1{
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+    color:rgb(247, 44, 44);
+    text-shadow: 5px 5px 20px rgb(7, 7, 7);
+    .first_letter{
+    color: #FCEA08;
+    
+    font-size:3.5rem;
+    }
    
 }
-.flag img{
-    height:50px;
+.ask-logo img{
+    height:65px;
+    // border:solid 2px black;
 }
