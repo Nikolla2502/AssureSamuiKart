@@ -1,0 +1,21 @@
+
+footer{
+    display:flex;
+    justify-content: space-around;
+    margin:2% 10%;
+    background-color:$bg_color;
+    border:solid 5px $border_color;
+    border-radius:20px;
+    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+    padding:10px;
+    font-weight:bold;
+    line-height: 1.5rem;
+    a{
+        text-decoration:none;
+    }
+}
+img{
+    height:25px;
+    margin:0 10px;
+    
+}

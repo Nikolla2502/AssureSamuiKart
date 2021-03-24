@@ -1,0 +1,22 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:solid 5px $border-color;
+    border-radius:20px;
+    background-color:$bg_color;
+    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+    
+    padding:5px 50px;
+    margin:2%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+   
+}
+.flag img{
+    height:50px;
+}
