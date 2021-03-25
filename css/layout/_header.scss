@@ -7,7 +7,7 @@ header{
     background-color:$bg_color;
     box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
     
-    padding:5px 50px;
+    padding:5px 0;
     margin:2%;
 }
 
@@ -15,7 +15,7 @@ h1{
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    color:rgb(247, 44, 44);
+    // color:rgb(247, 44, 44);
     text-shadow: 5px 5px 20px rgb(7, 7, 7);
     .first_letter{
     color: #FCEA08;
@@ -24,7 +24,33 @@ h1{
     }
    
 }
-.ask-logo img{
-    height:65px;
-    // border:solid 2px black;
+.ask-logo{
+    img{
+         margin-top:10px;
+        width:158px;
+        height:100px;
+    }
+    
+}
+.ask-logo_left{
+        margin-right:50px;
+    }
+.ask-logo_right{
+    margin-left:50px;
+}
+.ask-presentation-complement{
+    display: flex;
+    .nation-flag{
+        img{
+        height:60px;
+        }
+    }
+    h2{
+    font-size:2rem;
+    font-weight: bold;
+    // color:rgb(243, 55, 55);
+    text-align: center;
+    text-shadow: 5px 5px 20px rgb(7, 7, 7);
+    margin:8px;
+    }
 }

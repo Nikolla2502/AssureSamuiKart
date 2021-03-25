@@ -136,7 +136,7 @@ header {
   background-color: #d4d4d4;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  padding: 5px 50px;
+  padding: 5px 0;
   margin: 2%;
 }
 
@@ -144,7 +144,6 @@ h1 {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
-  color: #f72c2c;
   text-shadow: 5px 5px 20px #070707;
 }
 
@@ -154,7 +153,35 @@ h1 .first_letter {
 }
 
 .ask-logo img {
-  height: 65px;
+  margin-top: 10px;
+  width: 158px;
+  height: 100px;
+}
+
+.ask-logo_left {
+  margin-right: 50px;
+}
+
+.ask-logo_right {
+  margin-left: 50px;
+}
+
+.ask-presentation-complement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ask-presentation-complement .nation-flag img {
+  height: 60px;
+}
+
+.ask-presentation-complement h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 5px 20px #070707;
+  margin: 8px;
 }
 
 footer {
@@ -187,6 +214,8 @@ img {
   height: 320px;
   width: 100%;
   margin-left: 20px;
+  -webkit-box-shadow: 5px 5px 25px white;
+          box-shadow: 5px 5px 25px white;
   border-radius: 50px;
   max-width: 320px;
   overflow: hidden;
@@ -241,6 +270,7 @@ img {
   border-bottom: solid 5px #505050;
   -webkit-box-shadow: 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050;
+  border-radius: 25px 25px 0 0;
 }
 
 .card-race-banner .rotaxmax {
@@ -325,6 +355,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-radius: 25px 25px 0 0;
   border-bottom: solid 5px #505050;
   -webkit-box-shadow: 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050;
