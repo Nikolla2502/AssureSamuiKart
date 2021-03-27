@@ -396,6 +396,18 @@ img {
   margin-top: 20px;
 }
 
+.card-team-presentation {
+  font-size: 2rem;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.card-team a {
+  font-size: 1.5rem;
+  position: relative;
+  left: 850px;
+}
+
 .card-team {
   height: 600px;
   background-color: #d4d4d4;
