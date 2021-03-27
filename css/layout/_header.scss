@@ -5,7 +5,7 @@ header{
     border:solid 5px $border-color;
     border-radius:20px;
     background-color:$bg_color;
-    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+    @include box-shadow-main;
     
     padding:5px 0;
     margin:2%;
@@ -34,9 +34,11 @@ h1{
 }
 .ask-logo_left{
         margin-right:50px;
+        margin-left:5px;
     }
 .ask-logo_right{
     margin-left:50px;
+    margin-right:5px;
 }
 .ask-presentation-complement{
     display: flex;

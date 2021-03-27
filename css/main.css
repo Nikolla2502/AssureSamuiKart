@@ -160,10 +160,12 @@ h1 .first_letter {
 
 .ask-logo_left {
   margin-right: 50px;
+  margin-left: 5px;
 }
 
 .ask-logo_right {
   margin-left: 50px;
+  margin-right: 5px;
 }
 
 .ask-presentation-complement {
@@ -391,6 +393,28 @@ img {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.card-team {
+  height: 600px;
+  background-color: #d4d4d4;
+  border: solid 5px #505050;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  margin: 5%;
+}
+
+.card-team h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.team {
+  font-size: 2rem;
   margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */

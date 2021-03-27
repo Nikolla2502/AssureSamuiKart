@@ -1,0 +1,122 @@
+
+/*####################################*\
+##########  Partie competition  ########
+\*####################################*/
+
+
+.card-race{
+    
+    height:600px;
+    background-color:$bg_color;
+    border: solid 5px $border_color;
+    border-radius:25px;
+    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+    margin:5%;
+    h2{
+        text-align: center;
+        font-size:2.5rem;
+        font-weight: bold;
+        margin-top:40px;
+        
+
+    }
+}
+.card-race-banner{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid 5px $border_color;
+    box-shadow:0 5px 15px $border-color;
+    border-radius:25px 25px 0 0;
+    .rotaxmax{
+    border:solid 2px $border_color;
+    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+        img{
+        border:solid 2px $border_color;
+        border-radius:15px 0;
+        box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+        height:100px;
+        margin:10px;
+        }
+    }
+    .rotaxmax_left{
+        border-radius:15px 0 0;
+    }
+    .rotaxmax_right{
+        border-radius:0 15px 0 0;
+    }
+ 
+    
+}
+.rotaxmax-calendar img{
+    height:320px;
+}
+.bira-track img{
+    height:320px;
+}
+.card-race-body{
+    display:flex;
+    justify-content: left;
+    margin-top:20px;
+    figcaption{
+        text-align: center;
+        font-size: 1.5rem;
+        img{
+            height:2rem;
+            position: relative;
+            top:10px;
+        }
+    }
+
+}
+
+/*####################################*\
+##########  Fin Partie competition  ####
+\*####################################*/
+
+/*####################################*\
+########## Partie partenaire        ####
+\*####################################*/
+
+.card-partenaires{
+    height:500px;
+    background-color:$bg_color;
+    border: solid 5px $border_color;
+    border-radius:25px;
+    @include box-shadow-main;
+    margin:5%;
+    h2{
+        text-align: center;
+        font-size:2.5rem;
+        font-weight: bold;
+        margin-top:40px;
+    }
+}
+.card-partenaires-banner{
+    display:flex;
+    justify-content: space-between;
+    border-radius:25px 25px 0 0;
+    border-bottom: solid 5px $border_color;
+    box-shadow:0 5px 15px $border-color;
+    .rotaxmax{
+        border:solid 2px $border_color;
+        @include box-shadow-main;
+            img{
+            border:solid 2px $border_color;
+            border-radius:15px 0;
+            @include box-shadow-main;
+            height:100px;
+            margin:10px;
+            }
+        }
+        .rotaxmax_left{
+            border-radius:15px 0 0;
+        }
+        .rotaxmax_right{
+            border-radius:0 15px 0 0;
+        }
+}
+.card-partenaires-body{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
