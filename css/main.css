@@ -121,6 +121,58 @@ body {
   font-family: 'title';
 }
 
+.card {
+  background-color: #d4d4d4;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  margin: 5%;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.card a {
+  font-size: 1.8rem;
+}
+
+.card-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  border-radius: 25px 25px 0 0;
+}
+
+.card-banner .rotaxmax {
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+}
+
+.card-banner .rotaxmax img {
+  border-radius: 15px 0;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  height: 100px;
+  margin: 10px;
+}
+
+.card-banner .rotaxmax_left {
+  border-radius: 15px 0 0;
+}
+
+.card-banner .rotaxmax_right {
+  border-radius: 0 15px 0 0;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,7 +183,6 @@ header {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: solid 5px #505050;
   border-radius: 20px;
   background-color: #d4d4d4;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
@@ -194,10 +245,9 @@ footer {
       justify-content: space-around;
   margin: 2% 10%;
   background-color: #d4d4d4;
-  border: solid 5px #505050;
-  border-radius: 20px;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  border-radius: 20px;
   padding: 10px;
   font-weight: bold;
   line-height: 1.5rem;
@@ -243,59 +293,31 @@ img {
 }
 
 /*####################################*\
+##########  Partie team         ########
+\*####################################*/
+.card-team-presentation {
+  font-size: 2rem;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.card-team {
+  height: 500px;
+}
+
+.card-lien {
+  text-align: right;
+  padding-right: 20px;
+}
+
+/*####################################*\
+########## FIN Partie team      ########
+\*####################################*/
+/*####################################*\
 ##########  Partie competition  ########
 \*####################################*/
 .card-race {
   height: 600px;
-  background-color: #d4d4d4;
-  border: solid 5px #505050;
-  border-radius: 25px;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  margin: 5%;
-}
-
-.card-race h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
-.card-race-banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: solid 5px #505050;
-  -webkit-box-shadow: 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050;
-  border-radius: 25px 25px 0 0;
-}
-
-.card-race-banner .rotaxmax {
-  border: solid 2px #505050;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-}
-
-.card-race-banner .rotaxmax img {
-  border: solid 2px #505050;
-  border-radius: 15px 0;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  height: 100px;
-  margin: 10px;
-}
-
-.card-race-banner .rotaxmax_left {
-  border-radius: 15px 0 0;
-}
-
-.card-race-banner .rotaxmax_right {
-  border-radius: 0 15px 0 0;
 }
 
 .rotaxmax-calendar img {
@@ -335,55 +357,6 @@ img {
 \*####################################*/
 .card-partenaires {
   height: 500px;
-  background-color: #d4d4d4;
-  border: solid 5px #505050;
-  border-radius: 25px;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  margin: 5%;
-}
-
-.card-partenaires h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
-.card-partenaires-banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-radius: 25px 25px 0 0;
-  border-bottom: solid 5px #505050;
-  -webkit-box-shadow: 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050;
-}
-
-.card-partenaires-banner .rotaxmax {
-  border: solid 2px #505050;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-}
-
-.card-partenaires-banner .rotaxmax img {
-  border: solid 2px #505050;
-  border-radius: 15px 0;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  height: 100px;
-  margin: 10px;
-}
-
-.card-partenaires-banner .rotaxmax_left {
-  border-radius: 15px 0 0;
-}
-
-.card-partenaires-banner .rotaxmax_right {
-  border-radius: 0 15px 0 0;
 }
 
 .card-partenaires-body {
@@ -396,37 +369,35 @@ img {
   margin-top: 20px;
 }
 
-.card-team-presentation {
-  font-size: 2rem;
-  margin-top: 20px;
-  padding: 30px;
-}
-
-.card-team a {
-  font-size: 1.5rem;
-  position: relative;
-  left: 850px;
-}
-
-.card-team {
+/*####################################*\
+##########  Fin Partie competition  ####
+\*####################################*/
+.card-team-page {
   height: 600px;
-  background-color: #d4d4d4;
-  border: solid 5px #505050;
-  border-radius: 25px;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  margin: 5%;
 }
 
-.card-team h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
-.team {
+.team-list {
   font-size: 2rem;
-  margin-top: 20px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.team-pictures {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team-pictures img {
+  height: 200px;
+  margin: 10px;
+  border: solid 2px #505050;
 }
 /*# sourceMappingURL=main.css.map */

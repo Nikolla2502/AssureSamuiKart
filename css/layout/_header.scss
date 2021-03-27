@@ -2,7 +2,7 @@ header{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    border:solid 5px $border-color;
+    // @include border-main;
     border-radius:20px;
     background-color:$bg_color;
     @include box-shadow-main;

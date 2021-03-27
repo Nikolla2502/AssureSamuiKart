@@ -4,9 +4,10 @@ footer{
     justify-content: space-around;
     margin:2% 10%;
     background-color:$bg_color;
-    border:solid 5px $border_color;
+    @include box-shadow-main;
+    // @include border-main;
     border-radius:20px;
-    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
+    
     padding:10px;
     font-weight:bold;
     line-height: 1.5rem;

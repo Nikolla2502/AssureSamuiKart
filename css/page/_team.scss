@@ -1,21 +1,21 @@
-.card-team{
+.card-team-page{
     
     height:600px;
-    background-color:$bg_color;
-    border: solid 5px $border_color;
-    border-radius:25px;
-    box-shadow:0 5px 15px $border-color,inset 0 5px 15px $border-color;
-    margin:5%;
-    h2{
-        text-align: center;
-        font-size:2.5rem;
-        font-weight: bold;
-        margin-top:40px;
-        
-
-    }
 }
-.team{
+.team-list{
     font-size:2rem;
-    margin-top:20px;
+    margin-top:2%;
+    margin-left:5%;
+}
+.team-pictures{
+    margin:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    img{
+        height: 200px;
+        margin:10px;
+        border: solid 2px $border_color;
+    }
 }
