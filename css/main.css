@@ -153,6 +153,7 @@ body {
 }
 
 .card-banner .rotaxmax {
+  padding: 10px;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
@@ -166,11 +167,11 @@ body {
 }
 
 .card-banner .rotaxmax_left {
-  border-radius: 15px 0 0;
+  border-radius: 25px 0 0;
 }
 
 .card-banner .rotaxmax_right {
-  border-radius: 0 15px 0 0;
+  border-radius: 0 25px 0 0;
 }
 
 header {
@@ -235,6 +236,17 @@ h1 .first_letter {
   text-align: center;
   text-shadow: 5px 5px 20px #070707;
   margin: 8px;
+}
+
+.lang-choice {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.lang-choice img {
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
 
 footer {
@@ -305,9 +317,13 @@ img {
   height: 500px;
 }
 
-.card-lien {
+.card-lien-page {
   text-align: right;
   padding-right: 20px;
+}
+
+.card-lien-page a {
+  color: black;
 }
 
 /*####################################*\
