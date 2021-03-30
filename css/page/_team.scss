@@ -19,3 +19,10 @@
         border: solid 2px $border_color;
     }
 }
+.video{
+    margin:20px 0 0 60px;
+    iframe{
+        border:solid 2px $border_color;
+        @include box-shadow-main;
+    }
+}

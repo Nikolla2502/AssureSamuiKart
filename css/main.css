@@ -416,4 +416,14 @@ img {
   margin: 10px;
   border: solid 2px #505050;
 }
+
+.video {
+  margin: 20px 0 0 60px;
+}
+
+.video iframe {
+  border: solid 2px #505050;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+}
 /*# sourceMappingURL=main.css.map */
