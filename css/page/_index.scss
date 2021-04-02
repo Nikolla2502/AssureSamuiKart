@@ -5,19 +5,23 @@
 \*####################################*/
 .card-team-presentation{
     font-size:2rem;
-    margin-top:20px;
+    margin-top:40px;
     padding:30px;
     
 }
 .card-team{
     height:500px;
-
+    
 } 
 .card-lien-page{
     text-align: right;
     padding-right:20px;
+    
     a{
         color: rgb(0, 0, 0);
+        @include box-shadow-main;
+        padding:15px;
+        border-radius:25px;
     }
     
     
@@ -74,7 +78,10 @@
     justify-content: space-evenly;
     margin-top:20px;
 }
-
+.partners{
+    font-size:1.8rem;
+    text-decoration:underline;
+}
 /*####################################*\
 ##########  Fin Partie competition  ####
 \*####################################*/

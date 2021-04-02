@@ -174,7 +174,7 @@ body {
   border-radius: 0 25px 0 0;
 }
 
-header {
+.banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,8 +188,7 @@ header {
   background-color: #d4d4d4;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  padding: 5px 0;
-  margin: 2%;
+  padding: 2px 0;
 }
 
 h1 {
@@ -205,7 +204,7 @@ h1 .first_letter {
 }
 
 .ask-logo img {
-  margin-top: 10px;
+  margin-top: 15px;
   width: 158px;
   height: 100px;
 }
@@ -240,7 +239,7 @@ h1 .first_letter {
 
 .lang-choice {
   text-align: right;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-right: 20px;
 }
 
@@ -309,7 +308,7 @@ img {
 \*####################################*/
 .card-team-presentation {
   font-size: 2rem;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 30px;
 }
 
@@ -324,6 +323,10 @@ img {
 
 .card-lien-page a {
   color: black;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  padding: 15px;
+  border-radius: 25px;
 }
 
 /*####################################*\
@@ -383,6 +386,11 @@ img {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-top: 20px;
+}
+
+.partners {
+  font-size: 1.8rem;
+  text-decoration: underline;
 }
 
 /*####################################*\
