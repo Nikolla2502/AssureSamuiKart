@@ -239,11 +239,11 @@ h1 .first_letter {
 
 .lang-choice {
   text-align: right;
-  margin-top: 5px;
-  margin-right: 20px;
+  margin: 15px 20px 10px 0;
 }
 
 .lang-choice img {
+  height: 2rem;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
@@ -319,6 +319,7 @@ img {
 .card-lien-page {
   text-align: right;
   padding-right: 20px;
+  padding-bottom: 0px;
 }
 
 .card-lien-page a {
@@ -327,6 +328,7 @@ img {
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
   padding: 15px;
   border-radius: 25px;
+  background: #999999;
 }
 
 /*####################################*\
