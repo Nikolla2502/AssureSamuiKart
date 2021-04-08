@@ -3,11 +3,11 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 255.1 155.9" style="enable-background:new 0 0 255.1 155.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
+	.st0{fill:red;}
 	.st1{font-family:'Superclarendon-Regular';}
-	.st2{font-size:110.613px;}
+	.st2{font-size:120.613px;}
 	.st3{letter-spacing:-30.5;}
 </style>
-<rect x="22.4" y="15.6" class="st0" width="194.4" height="135.5"/>
+<rect x="25.4" y="15.6" class="st0" width="194.4" height="135"/>
 <text transform="matrix(1.1492 0 0 0.64 22.4116 100.8125)" class="st1 st2 st3">A</text>
 </svg>

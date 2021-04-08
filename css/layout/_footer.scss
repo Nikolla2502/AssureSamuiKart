@@ -1,8 +1,10 @@
 
 footer{
     display:flex;
+    
     justify-content: space-around;
-    margin:2% 10%;
+
+    margin:5% 3%;
     background-color:$bg_color;
     @include box-shadow-main;
     // @include border-main;
