@@ -361,10 +361,14 @@ img {
 
 .rotaxmax-calendar img {
   height: 320px;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
 
 .bira-track img {
   height: 320px;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
 
 .card-race-body {
@@ -374,7 +378,7 @@ img {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .card-race-body figcaption {
@@ -386,6 +390,12 @@ img {
   height: 2rem;
   position: relative;
   top: 10px;
+}
+
+.card-race-body p {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 8px;
 }
 
 /*####################################*\
