@@ -259,22 +259,51 @@ footer {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 5% 3%;
+  padding: 20px 0;
   background-color: #d4d4d4;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
   border-radius: 20px;
-  padding: 10px;
   font-weight: bold;
   line-height: 1.5rem;
+  font-size: 1.4rem;
 }
 
 footer a {
   text-decoration: none;
+  color: #292929;
+}
+
+footer a:hover {
+  color: black;
+  text-shadow: 1px 1px 10px;
 }
 
 img {
   height: 25px;
-  margin: 0 10px;
+  margin-right: 8px;
+}
+
+footer figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer figure figcaption {
+  font-size: 1.3rem;
+}
+
+.contact li {
+  margin-top: 15px;
+}
+
+.partenaires li {
+  margin-top: 10px;
 }
 
 #slider {
@@ -390,6 +419,8 @@ img {
   height: 2rem;
   position: relative;
   top: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .card-race-body p {
