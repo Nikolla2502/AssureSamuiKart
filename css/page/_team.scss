@@ -1,17 +1,40 @@
 .card-team-page{
     
-    height:950px;
+    height:auto;
 }
 .team-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:5% 5%;
     font-size:1.5rem;
-    margin-top:2%;
-    margin-left:5%;
+    
+}
+
+
+
+.team-list-part{
+    width:100%;
+    margin-bottom:5%;
+    li{
+        line-height: 2rem;
+    }
+    h3{
+        font-weight: bold;
+        border-radius: 15px;
+        @include box-shadow-main;
+        text-align: center;
+        margin-right:100px;
+        margin-bottom:20px;
+        padding:10px;
+    }
 }
 .team-pictures{
     margin:20px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap:wrap;
 
     img{
         height: 200px;
@@ -20,7 +43,7 @@
     }
 }
 .video{
-    margin:20px 0 0 60px;
+    margin:20px auto;
     iframe{
         border:solid 2px $border_color;
         @include box-shadow-main;

@@ -466,13 +466,42 @@ footer figure figcaption {
 ##########  Fin Partie competition  ####
 \*####################################*/
 .card-team-page {
-  height: 950px;
+  height: auto;
 }
 
 .team-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5% 5%;
   font-size: 1.5rem;
-  margin-top: 2%;
-  margin-left: 5%;
+}
+
+.team-list-part {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.team-list-part li {
+  line-height: 2rem;
+}
+
+.team-list-part h3 {
+  font-weight: bold;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  text-align: center;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .team-pictures {
@@ -486,6 +515,8 @@ footer figure figcaption {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .team-pictures img {
@@ -495,7 +526,7 @@ footer figure figcaption {
 }
 
 .video {
-  margin: 20px 0 0 60px;
+  margin: 20px auto;
 }
 
 .video iframe {
