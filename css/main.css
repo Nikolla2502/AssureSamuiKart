@@ -366,7 +366,8 @@ footer figure figcaption {
   text-align: right;
   padding-top: 40px;
   padding-right: 20px;
-  margin-bottom: 0px;
+  position: relative;
+  bottom: 35px;
 }
 
 .card-lien-page a {
@@ -476,12 +477,21 @@ footer figure figcaption {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 5% 5%;
   font-size: 1.5rem;
+}
+
+@media all and (max-width: 1024px) {
+  .team-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .team-list-part {
@@ -491,6 +501,8 @@ footer figure figcaption {
 
 .team-list-part li {
   line-height: 2rem;
+  width: 80%;
+  margin-left: 20px;
 }
 
 .team-list-part h3 {
@@ -501,7 +513,7 @@ footer figure figcaption {
   text-align: center;
   margin-right: 100px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .team-pictures {
@@ -523,6 +535,8 @@ footer figure figcaption {
   height: 200px;
   margin: 10px;
   border: solid 2px #505050;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
 
 .video {
