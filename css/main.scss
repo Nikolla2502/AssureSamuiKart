@@ -1,8 +1,10 @@
 @import "utils/variables";
 @import "utils/keyframes";
 @import "utils/mediaquerys";
-@import "base/base";
+
 @import "base/minireset";
+@import "base/base";
+
 @import "base/typography";
 @import "layout/card";
 @import "layout/header";
