@@ -1,11 +1,13 @@
 
 @font-face{
     font-family: 'title';
-    src:url('font/Superclarendon Regular.ttf')
+    src:url('/././font/Superclarendon Regular.ttf')
 }
-body{
+.banner{
     font-family: 'title';
+   ;
 }
+
 h4{
     font-size:1.3rem;
 }
