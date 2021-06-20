@@ -541,6 +541,16 @@ footer figure figcaption {
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
 
+.team-pictures figcaption {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: solid 2px #505050;
+  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+}
+
 .video {
   margin: 20px auto;
 }
