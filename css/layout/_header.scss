@@ -44,6 +44,7 @@ h1{
 }
 .ask-presentation-complement{
     display: flex;
+    justify-content: center;
     .nation-flag{
         img{
         height:60px;
@@ -63,7 +64,11 @@ h1{
     
     img{
         height:2.5rem;
-    @include box-shadow-main;
+        @include box-shadow-main;
+    }
+    select{
+        height:30px;
+        width:80px;
     }
     
     
