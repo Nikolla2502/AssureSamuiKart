@@ -254,6 +254,9 @@ h1 .first_letter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ask-presentation-complement .nation-flag img {
@@ -611,13 +614,5 @@ footer figure figcaption {
   border: solid 2px #505050;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-}
-
-.description {
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-  font-size: 2rem;
-  text-align: center;
-  padding: 10px 0 10px 0;
 }
 /*# sourceMappingURL=main.css.map */
