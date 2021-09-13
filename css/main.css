@@ -184,8 +184,6 @@ h4 {
 
 .card-banner .rotaxmax {
   padding: 10px;
-  -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
-          box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
 }
 
 .card-banner .rotaxmax img {
@@ -202,6 +200,16 @@ h4 {
 
 .card-banner .rotaxmax_right {
   border-radius: 0 25px 0 0;
+}
+
+.card-banner .logo-banner {
+  padding: 10px;
+}
+
+.card-banner img {
+  border-radius: 15px 0 15px 0;
+  height: 100px;
+  margin: 10px;
 }
 
 .banner {
@@ -224,14 +232,14 @@ h4 {
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   text-shadow: 5px 5px 20px #070707;
 }
 
 h1 .first_letter {
-  color: #FCEA08;
-  font-size: 3.5rem;
+  color: #e20303;
+  font-size: 4rem;
 }
 
 .ask-logo img {

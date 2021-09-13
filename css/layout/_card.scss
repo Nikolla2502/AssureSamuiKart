@@ -25,7 +25,7 @@
     border-radius:25px 25px 0 0;
     .rotaxmax{
     padding:10px;
-    @include box-shadow-main;
+    // @include box-shadow-main;
         img{
         border-radius:15px 0;
         @include box-shadow-main;
@@ -39,6 +39,16 @@
     .rotaxmax_right{
         border-radius:0 25px 0 0;
     }
+    .logo-banner{
+        padding:10px;
+        // @include box-shadow-main;
+        }
+        img{
+        border-radius: 15px 0 15px 0;
+        height:100px;
+        margin:10px;
+        }
+    
+    }
  
     
-}
