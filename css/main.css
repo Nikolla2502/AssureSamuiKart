@@ -187,9 +187,9 @@ h4 {
 }
 
 .card-banner .rotaxmax img {
-  border-radius: 15px 0;
   -webkit-box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
           box-shadow: 0 5px 15px #505050, inset 0 5px 15px #505050;
+  border-radius: 15px 0;
   height: 100px;
   margin: 10px;
 }
@@ -202,12 +202,11 @@ h4 {
   border-radius: 0 25px 0 0;
 }
 
-.card-banner .logo-banner {
+.card-banner .card_banner_logo {
   padding: 10px;
 }
 
 .card-banner img {
-  border-radius: 15px 0 15px 0;
   height: 100px;
   margin: 10px;
 }
